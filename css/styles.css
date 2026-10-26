@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+
+@font-face {
+    font-family:'BrisketScript' ;
+    src: url(../fonts/BrisketScript_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+    font-family: Recoleta ;
+    src: url(../fonts/Recoleta-RegularDEMO.otf);
+}
+
+body{
+    background-color: rgb(244, 202, 171);
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/*topo*/
+
+.topo{
+    background-color: rgb(186, 22, 22);
+    color: black;
+    padding: 20px;
+}
+
+.topo img{
+    width: 350px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.topo img:hover{
+    transform: scale(1.20);
+    transition: 0.3s;
+}
+
+/*sessoes*/
+
+.servicos, .pratos, .cardapio{
+
+    background-color: rgb(244, 202, 171);
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.servicos:hover{
+
+    transform: scale(1.02);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5); 
+    transition: 0.3s;
+
+}
+
+.pratos:hover{
+
+    transform: scale(1.02);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5); 
+    transition: 0.3s;
+    font-family: "Felipa", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cardapio:hover{
+
+    transform: scale(1.02);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5); 
+    transition: 0.3s;
+
+}
+
+/*listas*/
+
+ul, ol{
+
+    text-align: left;
+    width: 50%;
+    margin: 15px;
+    font-size: 20px;
+    list-style-type: decimal;
+
+}
+
+ul,ol:hover{
+    transform: 1.05px;
+}
+
+li{
+    margin: 15px;
+}
+
+/*tabela*/
+
+table{
+
+    width:80%;
+    margin:auto;
+    border-collapse: collapse;
+    border: 2px;
+    padding: 20px;
+}
+
+th{
+
+    background-color:rgb(163, 7, 7);
+
+}
+
+th, td{
+
+    border: 2px solid black;
+    padding: 20px;
+
+}
+
+tr:hover{
+    background-color:rgb(134, 3, 3);
+}
+
+/*rodape*/
+
+footer{
+    background-color: rgb(186, 22, 22);
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.cardapio{
+    font-family: "Felipa", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pratos{
+    font-family: "Felipa", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.servicos{
+    font-family: "Felipa", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    font-family: BrisketScript;
+}
+
+h1{
+    font-family: BrisketScript;
+}
+
+tr{
+    font-family: Recoleta;
+}
+
+li{
+    font-family: Recoleta;
+}
+
+.info{
+    text-align: left;
+}
+
+li{
+    margin: 15px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+li:hover{
+    transform:scale(1.09);
+}

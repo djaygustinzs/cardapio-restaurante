@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(244, 202, 171);
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/*topo*/
+
+.topo{
+    background-color: rgb(186, 22, 22);
+    color: black;
+    padding: 20px;
+}
+
+.topo img{
+    width: 350px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.topo img:hover{
+    transform: scale(1.20);
+    transition: 0.2s;
+}
+
+/*SESSÕES*/
+
+.servicos, .pratos, .cardapio{
+    background-color: rgb(244, 202, 171);
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.servicos:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5); 
+    transition: 0.2s;
+}
+
+.pratos:hover{
+
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5); 
+    transition: 0.2s;
+
+}
+
+.cardapio:hover{
+
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5); 
+    transition: 0.2s;
+
+}
+
+/*listas*/
+
+ul, ol{
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+}
+
+li{
+    margin: 10px;
+}
+
+/*tabela*/
+
+table{
+    width:80%;
+    margin:auto;
+    border-collapse: collapse;
+}
+
+th{
+    background-color:rgb(163, 7, 7);
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+tr:hover{
+    background-color:rgb(134, 3, 3);
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 240, 240);
+    padding: 15px;
+    margin-top: 30px;
+}
